@@ -31,7 +31,7 @@ def generar_frames():
         print("Error: No se pudo abrir la cámara.")
         return
 
-    object_cascades = get_object_cascades('/home/davialvarado/Desktop/ProgramaFInal/cascades.json')
+    object_cascades = get_object_cascades('/home/davialvarado/Desktop/ProgramaFInal/data/cascades.json')
     font = cv2.FONT_HERSHEY_SIMPLEX
 
     while True:
